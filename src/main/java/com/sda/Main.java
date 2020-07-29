@@ -16,5 +16,7 @@ public class Main {
         veterinarianDao.createEntity(veterinarian);
         veterinarian = veterinarianDao.findVeterinarianById(5L);
         System.out.println(veterinarian);
+
+        System.out.println(veterinarian);
     }
 }
